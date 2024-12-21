@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.Flow
 import org.msa.booksearch.core.resources.DataError
 import org.msa.booksearch.core.resources.EmptyResult
 import org.msa.booksearch.core.resources.ResultCustom
-import org.msa.booksearch.data.model.BookModel
+import org.msa.booksearch.domain.model.BookModel
 
 interface BookRepository {
     suspend fun searchBooks(query: String): ResultCustom<List<BookModel>, DataError.Remote>

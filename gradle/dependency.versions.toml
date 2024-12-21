@@ -10,6 +10,7 @@ sqlite = "2.5.0-alpha12"
 ksp = "2.0.21-1.0.25"
 logging = "7.0.3"
 
+navigationCompose = "2.8.0-alpha10"
 
 [libraries]
 #  Network
@@ -42,6 +43,10 @@ sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sql
 
 #log
 logging-kotlin ={module ="io.github.oshai:kotlin-logging",version.ref="logging"}
+
+
+#navigation
+jetbrains-compose-navigation = { group = "org.jetbrains.androidx.navigation", name = "navigation-compose", version.ref= "navigationCompose"}
 
 [bundles]
 ktor = [

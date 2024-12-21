@@ -3,7 +3,7 @@ package org.msa.booksearch.data.datasource.local
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import org.msa.booksearch.domain.model.BookEntity
+import org.msa.booksearch.data.datasource.local.modelEntity.BookEntity
 
 /**
  * این کلاس نمایانگر پایگاه داده اپلیکیشن است که توسط Room ایجاد و مدیریت می‌شود.

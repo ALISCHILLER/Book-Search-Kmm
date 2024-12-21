@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
-import org.msa.booksearch.domain.model.BookEntity
+import org.msa.booksearch.data.datasource.local.modelEntity.BookEntity
 
 /**
  * این اینترفیس برای تعامل با پایگاه داده محلی کتاب‌ها (Room) طراحی شده است.

@@ -1,4 +1,4 @@
-package org.msa.booksearch.data.model
+package org.msa.booksearch.domain.model
 
 /**
  * مدل داده‌ای کتاب که شامل اطلاعات مختلفی در مورد هر کتاب می‌باشد.

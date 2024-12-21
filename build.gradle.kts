@@ -8,5 +8,5 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform) apply false
 
     alias(dependency.plugins.ksp) apply false
-//    alias(dependency.plugins.room) apply false
+    alias(dependency.plugins.room) apply false
 }
